@@ -78,11 +78,11 @@ export class GalleryComponent {
     return this.show ? 'show' : 'hide';
   }
 
-  _antStart() {
+  _antStart(e) {
     if (this.show) this._showd = this.show;
   }
 
-  _antDone() {
+  _antDone(e) {
     this._showd = this.show;
   }
 
